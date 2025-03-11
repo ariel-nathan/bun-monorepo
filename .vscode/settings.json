@@ -1,9 +1,18 @@
 {
   "prettier.enable": false,
+  "eslint.enable": false,
   "biome.enabled": true,
-  "editor.defaultFormatter": "biomejs.biome",
   "editor.codeActionsOnSave": {
     "quickfix.biome": "explicit",
     "source.organizeImports.biome": "explicit"
+  },
+  "[javascript][typescript][javascriptreact][typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[html][css]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[json][jsonc][yaml]": {
+    "editor.defaultFormatter": "biomejs.biome"
   }
 }
